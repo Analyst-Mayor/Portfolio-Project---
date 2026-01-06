@@ -60,3 +60,4 @@ FROM Flights f
 	JOIN Tickets t
     ON f.OP_CARRIER = t.REPORTING_CARRIER
     AND YEAR(f.FL_DATE) = t.TICKET_YEAR;
+
